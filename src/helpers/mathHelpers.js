@@ -74,6 +74,10 @@ function lcm_two_numbers(x, y) {
   return !x || !y ? 0 : Math.abs((x * y) / gcd_two_numbers(x, y));
 }
 
+function convertToBinary(num) {
+  return (num >>> 0).toString(2);
+}
+
 module.exports = {
   isPrime,
   getFactors,
@@ -82,4 +86,5 @@ module.exports = {
   gcd_array,
   lcm_two_numbers,
   lcm_array,
+  convertToBinary,
 };
