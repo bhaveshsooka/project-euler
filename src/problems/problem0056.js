@@ -20,7 +20,6 @@ function solve() {
     }
   }
 
-  console.log(maxBase, maxExponent, maxSumOfDigits);
   return { maxBase, maxExponent, maxSumOfDigits };
 }
 
