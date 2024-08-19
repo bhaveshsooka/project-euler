@@ -1,0 +1,67 @@
+HAI 1.2
+I HAS A ONES ITZ A NOOB
+I HAS A TEENS ITZ A NOOB
+I HAS A TENS ITZ A NOOB
+I HAS A HUNDREDS ITZ A NOOB
+
+IM IN YR LOOP UPPIN YR NUM TIL BOTH SAEM NUM AN 1001
+    BTW Calculate word for current num
+    I HAS A NUM ITZ NUM
+    BOTH SAEM NUM AN 1000, O RLY?
+        YA RLY
+            VISIBLE "onethousand"
+            GTFO
+        NO WAI
+            BOTH SAEM NUM AN SMALLR OF 10 AN BIGGR OF 1 AN NUM, O RLY?
+                YA RLY
+                    I HAS A WORD ITZ A AN SMALL OF ONES AN BIGGR OF 1 AN NUM
+                    VISIBLE WORD
+                NO WAI
+                    BOTH SAEM NUM AN SMALLR OF 19 AN BIGGR OF 11 AN NUM, O RLY?
+                        YA RLY
+                            I HAS A WORD ITZ A AN SMALL OF TEENS AN BIGGR OF 11 AN NUM
+                            VISIBLE WORD
+                        NO WAI
+                            BOTH SAEM NUM AN BIGGR OF 19 AN SMALLR OF 100, O RLY?
+                                YA RLY
+                                    I HAS A REM ITZ NUM % 10
+                                    I HAS A INDEX ITZ DIFF OF NUM AN REM
+                                    BOTH SAEM REM AN 0, O RLY?
+                                        YA RLY
+                                            I HAS A WORD ITZ TENS MKAY INDEX
+                                        NO WAI
+                                            I HAS A WORD ITZ BOTH OF SUM OF TENS MKAY INDEX AN BOTH OF "AN" AN BOTH OF NUM AN "AN" AN BOTH OF NUM AN "AN" AN SMALL OF ONES AN REM MKAY
+                                    VISIBLE WORD
+                                NO WAI
+                                    BOTH SAEM NUM AN BIGGR OF 99 AN SMALLR OF 1000, O RLY?
+                                        YA RLY
+                                            I HAS A REM ITZ NUM % 100
+                                            I HAS A INDEX ITZ DIFF OF NUM AN REM
+                                            BOTH SAEM REM AN 0, O RLY?
+                                                YA RLY
+                                                    I HAS A WORD ITZ HUNDREDS MKAY INDEX
+                                                NO WAI
+                                                    I HAS A WORD ITZ BOTH OF SUM OF HUNDREDS MKAY INDEX AN "AN" AN BOTH OF NUM AN "AN" AN BOTH OF NUM AN "AN" AN SMALL OF ONES AN REM MKAY
+                                            VISIBLE WORD
+                                        NO WAI
+                                            VISIBLE "Error: Num out of range"
+                                    OIC
+                            NO WAI
+                                VISIBLE "Error: Num out of range"
+                        OIC
+                OIC
+        OIC
+    OIC
+IM OUTTA YR LOOP
+
+I HAS A LETTERCOUNTS ITZ 0
+IM IN YR LOOP UPPIN YR NUM TIL BOTH SAEM NUM AN 1001
+    BTW Calculate letter count for current num
+    I HAS A WORDOFNUM ITZ A MKAY TO_WORD MKAY NUM
+    I HAS A WORDLEN ITZ LENGTH OF WORDOFNUM
+    LETTERCOUNTS R SUM OF LETTERCOUNTS AN WORDLEN
+IM OUTTA YR LOOP
+
+VISIBLE "Total letter counts: " AN LETTERCOUNTS
+
+KTHXBYE
