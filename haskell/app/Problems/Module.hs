@@ -14,6 +14,7 @@ import Problems.Problem0007 qualified as P0007
 import Problems.Problem0008 qualified as P0008
 import Problems.Problem0009 qualified as P0009
 import Problems.Problem0010 qualified as P0010
+import Problems.Problem0011 qualified as P0011
 
 getSolution :: Int -> EulerAnswer
 getSolution 0001 = EulerAnswer P0001.solution
@@ -26,4 +27,5 @@ getSolution 0007 = EulerAnswer P0007.solution
 getSolution 0008 = EulerAnswer P0008.solution
 getSolution 0009 = EulerAnswer P0009.solution
 getSolution 0010 = EulerAnswer P0010.solution
+getSolution 0011 = EulerAnswer P0011.solution
 getSolution _ = error "Problem not found"
