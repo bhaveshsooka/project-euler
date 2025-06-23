@@ -5,5 +5,5 @@ where
 
 import Util.Math (primes)
 
-solution :: Int
+solution :: Integer
 solution = primes !! 10000

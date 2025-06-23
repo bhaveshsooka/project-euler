@@ -77,6 +77,12 @@ executable project-euler
     Problems.Problem0009
     Problems.Problem0010
     Problems.Problem0011
+    Problems.Problem0012
+    Problems.Problem0013
+    Problems.Problem0014
+    Problems.Problem0015
+    Problems.Problem0016
+    Problems.Problem0017
     Util.Math
 
   -- LANGUAGE extensions used by modules in this package.

@@ -15,6 +15,12 @@ import Problems.Problem0008 qualified as P0008
 import Problems.Problem0009 qualified as P0009
 import Problems.Problem0010 qualified as P0010
 import Problems.Problem0011 qualified as P0011
+import Problems.Problem0012 qualified as P0012
+import Problems.Problem0013 qualified as P0013
+import Problems.Problem0014 qualified as P0014
+import Problems.Problem0015 qualified as P0015
+import Problems.Problem0016 qualified as P0016
+import Problems.Problem0017 qualified as P0017
 
 getSolution :: Int -> EulerAnswer
 getSolution 0001 = EulerAnswer P0001.solution
@@ -28,4 +34,10 @@ getSolution 0008 = EulerAnswer P0008.solution
 getSolution 0009 = EulerAnswer P0009.solution
 getSolution 0010 = EulerAnswer P0010.solution
 getSolution 0011 = EulerAnswer P0011.solution
+getSolution 0012 = EulerAnswer P0012.solution
+getSolution 0013 = EulerAnswer P0013.solution
+getSolution 0014 = EulerAnswer P0014.solution
+getSolution 0015 = EulerAnswer P0015.solution
+getSolution 0016 = EulerAnswer P0016.solution
+getSolution 0017 = EulerAnswer P0017.solution
 getSolution _ = error "Problem not found"

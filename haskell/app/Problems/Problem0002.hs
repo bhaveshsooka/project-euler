@@ -5,5 +5,5 @@ where
 
 import Util.Math (fibs)
 
-solution :: Int
+solution :: Integer
 solution = sum $ takeWhile (<= 4000000) $ filter even fibs

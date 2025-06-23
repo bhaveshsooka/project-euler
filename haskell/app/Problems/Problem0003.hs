@@ -5,5 +5,5 @@ where
 
 import Util.Math (primeFactors)
 
-solution :: Int
+solution :: Integer
 solution = maximum $ primeFactors 600851475143
