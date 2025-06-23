@@ -4,7 +4,7 @@ module Problems.Problem0006
 where
 
 solution :: Int
-solution = abs (sumOfSquares - squareOfSum)
+solution = (sum nums ^ power) - sum ((^power) <$> nums)
   where
-    sumOfSquares = sum [x * x | x <- [1 .. 100]]
-    squareOfSum = sum [1 .. 100] ^ (2 :: Int)
+    nums = [1 .. 100]
+    power :: Int = 2

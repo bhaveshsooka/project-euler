@@ -3,9 +3,7 @@ module Problems.Problem0007
   )
 where
 
-import Util.Math (isPrime)
+import Util.Math (primes)
 
 solution :: Int
-solution = last $ take 10001 primes
-  where
-    primes = filter isPrime [2 ..]
+solution = primes !! 10000

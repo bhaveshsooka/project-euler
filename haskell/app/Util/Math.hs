@@ -25,6 +25,9 @@ isPrime n
   where
     nRoot = floor (sqrt (fromIntegral n) :: Double)
 
+primes :: [Int]
+primes = filter isPrime [2 ..]
+
 sieveOfEratosthenes :: Int -> [Int]
 sieveOfEratosthenes n = sieve [2 .. n]
   where

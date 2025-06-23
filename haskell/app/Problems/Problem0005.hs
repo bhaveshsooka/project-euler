@@ -4,4 +4,4 @@ module Problems.Problem0005
 where
 
 solution :: Int
-solution = foldl1 lcm [1 .. 20]
+solution = foldr1 lcm [1 .. 20]
